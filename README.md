@@ -27,16 +27,16 @@
 
 - Cadastro, edição, listagem e exclusão de **pagadores (Payers)**  
 - Cadastro, edição, listagem e exclusão de **pagamentos (Payments)**  
-- Acompanhamento do **status de pagamentos**: `PENDING`, `PAID`, `EXPIRED`, `CANCELED`, `CONFIRMED_CASH`  
+- Acompanhamento do **status de pagamentos**: `PENDING`, `PAID`, `OVERDUE`, `CANCELED`  
 - **Confirmação manual** de pagamentos em dinheiro  
 - **Restauração e exclusão lógica** de registros  
 - Geração de **comprovantes em PDF**  
 - Filtros inteligentes para busca por nome e e-mail  
 - Notificações automáticas por e-mail para eventos de pagamento (`created`, `paid`, `expired`, `restored`, `confirmedCash`, `updated`)  
 - Jobs Quartz para verificação diária de **pagamentos vencidos**  
-- Controle de autenticação e autorização com base em papéis  
-- Validações e mensagens multilíngues (`message.properties`)  
-- Layout responsivo e adaptado para dispositivos móveis (`mobile-first`)
+- Controle de autenticação e autorização 
+- Validações e mensagens (`message.properties`)  
+- Layout responsivo e adaptado para dispositivos móveis
 
 ## Instalação
 
