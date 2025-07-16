@@ -9,10 +9,8 @@
 - [Instalação](#instalação)
 - [Configuração de Ambiente](#configuração-de-ambiente)
 - [Executando o Projeto](#executando-o-projeto)
-- [Estrutura do Projeto](#estrutura-do-projeto)
 - [Jobs e Notificações](#jobs-e-notificações)
-- [Scripts SQL](#scripts-sql)
-- [Créditos](#créditos)
+- [Desenvolvedores](#desenvolvedores)
 
 ## 💻 Tecnologias Utilizadas
 
