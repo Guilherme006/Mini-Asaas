@@ -1,8 +1,8 @@
-# 💸 Mini Asaas
+# Mini Asaas
 
 **Mini Asaas** é uma aplicação web desenvolvida com **Grails 5**, inspirada na estrutura do Asaas, voltada para o gerenciamento de **pagamentos, pagadores e notificações**. O projeto utiliza o padrão MVC e possui autenticação, com controle de permissões, geração de comprovantes em PDF, envio de notificações por e-mail e verificação automática de pagamentos vencidos com jobs agendados.
 
-## 📚 Índice
+## Índice
 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Funcionalidades](#funcionalidades)
@@ -12,7 +12,7 @@
 - [Jobs e Notificações](#jobs-e-notificações)
 - [Desenvolvedores](#desenvolvedores)
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Grails 5.x  
 - Groovy  
@@ -24,7 +24,7 @@
 - JavaMail (envio de e-mails)  
 - Flying Saucer (para geração de PDF)
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Cadastro, edição, listagem e exclusão de **pagadores (Payers)**  
 - Cadastro, edição, listagem e exclusão de **pagamentos (Payments)**  
@@ -39,7 +39,7 @@
 - Validações e mensagens multilíngues (`message.properties`)  
 - Layout responsivo e adaptado para dispositivos móveis (`mobile-first`)
 
-## ⚙️ Instalação
+## Instalação
 
 1. Clone o repositório:
 
@@ -53,7 +53,7 @@ git clone https://github.com/Guilherme006/Mini-Asaas.git
 CREATE DATABASE `mini-asaas` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-## 🔐 Configuração de Ambiente
+## Configuração de Ambiente
 
 Edite o arquivo grails-app/conf/application.yml com suas credenciais:
 
@@ -80,7 +80,7 @@ grails:
 
 ⚠️ **Importante:** Para envio de e-mails com Gmail, ative uma senha de app caso utilize autenticação em dois fatores.
 
-## ▶️ Executando o Projeto
+## Executando o Projeto
 
 1. Execute o projeto:
 
@@ -94,7 +94,7 @@ grails run-app
 http://localhost:8080
 ```
 
-## ⏰ Jobs e Notificações
+## Jobs e Notificações
 
 - **OverduePaymentsJob:** Executado diariamente para alterar o status de pagamentos vencidos para OVERDUE e notificar o cliente por e-mail.
 
@@ -105,6 +105,7 @@ http://localhost:8080
 
 ## Desenvolvedores
 Guilherme Felippe Lazari
+
 Victor Yan Martinez
 
 
