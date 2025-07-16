@@ -27,7 +27,7 @@
 
 - Cadastro, edição, listagem e exclusão de **pagadores (Payers)**  
 - Cadastro, edição, listagem e exclusão de **pagamentos (Payments)**  
-- Acompanhamento do **status de pagamentos**: `PENDING`, `PAID`, `OVERDUE`, `CANCELED`  
+- Acompanhamento do **status de pagamentos**: `PENDING`, `RECEIVED`, `OVERDUE`, `CANCELED`  
 - **Confirmação manual** de pagamentos em dinheiro  
 - **Restauração e exclusão lógica** de registros  
 - Geração de **comprovantes em PDF**  
