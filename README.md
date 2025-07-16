@@ -19,8 +19,7 @@
 - GORM (Hibernate)  
 - Spring Security Core  
 - Quartz Scheduler  
-- MySQL  
-- Docker (opcional)  
+- MySQL   
 - JavaMail (envio de e-mails)  
 - Flying Saucer (para geração de PDF)
 
