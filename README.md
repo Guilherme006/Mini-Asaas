@@ -102,9 +102,3 @@ http://localhost:8080
 - **Quartz Plugin:** Utilizado para agendamentos.
 
 
-## Desenvolvedores
-Guilherme Felippe Lazari
-
-Victor Yan Martinez
-
-
