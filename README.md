@@ -10,7 +10,6 @@
 - [Configuração de Ambiente](#configuração-de-ambiente)
 - [Executando o Projeto](#executando-o-projeto)
 - [Jobs e Notificações](#jobs-e-notificações)
-- [Desenvolvedores](#desenvolvedores)
 
 ## Tecnologias Utilizadas
 
